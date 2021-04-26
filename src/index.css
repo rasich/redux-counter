@@ -7,7 +7,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+}
+.app {
+  height: 100%;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 47px;
+}
+.counter span {
+  font-family: Roboto;
+  font-size: 150px;
+  line-height: 176px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.group {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+button {
+  width: 65px;
+  height: 65px;
+  border-radius: 4px;
+  border: none;
+}
+.inc {
+  background: #089C20;
+}
+.dec {
+  background: #E7AA10;
+}
+.zero {
+  background: #CF1C1C;
+}
+svg {
+  filter: drop-shadow( 4px 4px 3px rgba(0, 0, 0, 0.7));
 }
